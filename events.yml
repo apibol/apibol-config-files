@@ -23,3 +23,7 @@ data:
 
 usermicroservice:
     user-info: http://USERS/users/user/
+    
+rabbit:
+  user: guest
+  password: guest
