@@ -25,6 +25,7 @@ usermicroservice:
     user-info: http://USERS/users/user/
     
 rabbit:
-  host: localhost
-  user: guest
-  password: guest
+  queue:
+    results: results
+  exchange:
+    event: event
