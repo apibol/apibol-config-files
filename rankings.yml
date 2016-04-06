@@ -13,3 +13,7 @@ eureka:
 redis:
   host: localhost
   port: 6379
+
+rabbit:
+  queue:
+    userpoints: userpoints
