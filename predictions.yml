@@ -32,5 +32,7 @@ services:
 rabbit:
   queue:
     userpoints: userpoints
+    results: results
   exchange:
     userpoints: userpoints
+    event: event
