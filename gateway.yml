@@ -27,6 +27,10 @@ logging:
 
 zuul:
   routes:
-    users: /api/v1/users/**
-    serviceId: users
+    users:
+      path: /api/v1/**
+      serviceId: users
+    events:
+      path: /api/v1/**
+      serviceId: events
   
