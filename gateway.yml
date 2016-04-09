@@ -24,3 +24,9 @@ logging:
   level:
     ROOT: INFO
     org.springframework.web: DEBUG
+
+zuul:
+  routes:
+    users: /api/v1/user/**
+    serviceId: users
+  
