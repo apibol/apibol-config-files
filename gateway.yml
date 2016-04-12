@@ -42,4 +42,7 @@ zuul:
     rankings:
       path: /api/v1/rankings/**
       serviceId: rankings
+    auth:
+      path: /api/v1/auth/**
+      serviceId: auth
   
