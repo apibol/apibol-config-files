@@ -16,3 +16,8 @@ spring:
     username: root
     password: admin
     driver-class-name: org.mariadb.jdbc.Driver
+  oauth2:
+    resource:
+      userInfoUri: https://www.googleapis.com/plus/v1/people/me
+      preferTokenInfo: false
+   
