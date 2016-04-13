@@ -16,3 +16,14 @@ spring:
     username: root
     password: admin
     driver-class-name: org.mariadb.jdbc.Driver
+  oauth2:
+    client:
+      clientId: 397752094259-q4fpt4cseicsp10cpim3shj3q927074k.apps.googleusercontent.com
+      clientSecret: 8unbHUMRF8RcYMwqibcTWSpi
+      accessTokenUri: https://www.googleapis.com/oauth2/v3/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+      clientAuthenticationScheme: query
+      scope: profile email
+    resource:
+      userInfoUri: https://www.googleapis.com/plus/v1/people/me
+      preferTokenInfo: false  
