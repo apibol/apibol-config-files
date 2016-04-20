@@ -22,7 +22,7 @@ data:
     password: admin
 
 usermicroservice:
-    user-info: http://USERS/users/user/
+    user-info: http://USERS/users/
     
 rabbit:
   queue:
