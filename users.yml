@@ -19,4 +19,7 @@ spring:
   oauth2:
     resource:
       userInfoUri: http://localhost:7777/credential
-   
+      
+management:
+  security:
+    enabled: false
